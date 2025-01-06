@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 200vh;
+}
+#page{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#heading::before{
+    content: "";
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    width: 500px;
+    top: 35px;
+    border-bottom-style: none;
+}
+
+#heading::after{
+    content: "";
+    border: 1px solid black;
+    position: absolute;
+    right: 150px;
+    width: 500px;
+    top: 35px;
+    border-bottom-style: none;
+}
+#heading {
+    text-align: center;
+}
+
+#id{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic02.jpg);
+    background-repeat: no-repeat;
+}
+#content{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16.5px;
+    color: #fff;
+    background-color: rgb(37,33,34);
+}
+button:hover{
+    background-color: #333;
+}
+p{
+    color: rgb(94,94,94);
+}
+
+#id1{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic03.jpg);
+    background-repeat: no-repeat;
+}
+#content1{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+#id2{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic04.jpg);
+    background-repeat: no-repeat;
+}
+#content2{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+#id3{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic05.jpg);
+    background-repeat: no-repeat;
+}
+#content3{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+#id4{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic04.jpg);
+    background-repeat: no-repeat;
+}
+#content4{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+#id5{
+    border-bottom: 1px solid black;
+    width: 330px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic06.jpg);
+    background-repeat: no-repeat;
+}
+#content5{
+    position: relative;
+    top: 300px;
+    padding-left: 20px;
+    text-align: left;
+
+}
